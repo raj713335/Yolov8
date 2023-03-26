@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+# names: ['0', '1']
+names: ['crop', 'weed']
+
+roboflow:
+  workspace: arnab-das
+  project: crop_weed
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/arnab-das/crop_weed/1
